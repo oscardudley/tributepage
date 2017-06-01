@@ -1,0 +1,121 @@
+/* Responsive hero section */
+.hero-section {
+  background: url("http://thevarsity.ca/wp-content/uploads/2016/10/NEWS_Peterson_Investigation-STEVEN_LEETHE_VARSITY-Jordan_Peterson1-1080x720.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #FFF;
+  text-shadow: 1px 1px 2px #0a0a0a;
+
+}
+
+h1 {
+  font-weight: 900;
+  font-family: Poppins, sans-serif;
+  font-size: 7em;
+}
+
+h5 {
+  font-family: Poppins, sans-serif;
+}
+
+.button {
+  background-color: transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:50px;
+	border:2px solid #FFF;
+	display:block;
+	cursor:pointer;
+	color: #FFF;
+	font-family: Poppins, sans-serif;
+  font-weight: bold;
+	font-size:17px;
+	padding:10px 31px;
+	text-decoration:none;
+	text-shadow: 1px 1px 2px #0a0a0a;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+#left, #right {
+  width: 50%;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+  border-left: 1px solid;
+}
+
+#left h2, #right h2 {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  margin-top: 3vh;
+}
+
+#left li {
+  width: 95%;
+}
+#right p {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+#footer
+{
+    clear: both;
+    border-top: 1px solid;
+    background: white;
+    color: black;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1 {
+        font-size: 3.5em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /*For mobile phones: */
+    #left, #right {
+        display: block; 
+        float: none; 
+        width: 100%;
+        padding: 10px 0;
+    }
+  #left {
+    border-bottom: 1px solid;
+  }
+}
